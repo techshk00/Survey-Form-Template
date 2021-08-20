@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Survey Form For Technophile Bud Internship
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: #000000;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Technophile Bud Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="1. Will you recommend this college to others?" id="label-college">
+				1. Will you recommend this college to others?
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="1. Will you recommend this college to others?" id="label-college"
+				id="comment"
+				placeholder="0 to 10 least to very likely" />
+		</div>
+
+		<div class="form-control">
+			<label for="2. Are you satisfied with the teaching staff and their teaching methods?" id="label-2. Are you satisfied with the teaching staff and their teaching methods?">
+				2. Are you satisfied with the teaching staff and their teaching methods?
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="2. Are you satisfied with the teaching staff and their teaching methods?"
+				placeholder="0 to 10 least to most satisfied" />
+		</div>
+
+		<div class="form-control">
+			<label for="3. How satisfied are you with the facilities provided by the college?" id="label-3. How satisfied are you with the facilities provided by the college?">
+				3. How satisfied are you with the facilities provided by the college?
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="3. How satisfied are you with the facilities provided by the college?"
+				placeholder="0 to 10 least to most satisfied" />
+		</div>
+		<div class="form-control">
+			<label>
+				4. Was it easy to obtain the necessary resources from the college library?
+			</label>
+
+			
+			<label for="RESOURCE">
+				<input type="radio"
+					id="RESOURCE"
+					name="RESOURCE">Yes</input>
+			</label>
+			<label for="RESOURCE-2">
+				<input type="radio"
+					id="RESOURCE-2"
+					name="RESOURCE-2">No</input>
+			</label>
+		</div>
+
+
+	<div class="form-control">
+			<label>
+				5. Do you feel it is easier to register for different courses within the college?
+			</label>
+<p>
+			
+			<label for="REGISTER">
+				<input type="radio"
+					id="REGISTER"
+					name="recommed">Yes</input>
+			</label>
+			<label for="">
+				<input type="radio"
+					id="REGISTER"
+					name="REGISTER">No</input>
+			</p></label>
+	
+</div>
+		<div class="form-control">
+			<label>6. What do you think of the hostel?
+				
+			<label for="recomm">
+				<input type="radio"
+					id="recomm"
+					name="recomm">Extremely crowded</input>
+			</label>
+			<label for="recomed-6">
+				<input type="radio"
+					id="recomed-6"
+					name="recomed">Very crowded</input>
+			</label>
+				<label for="recmmed-7">
+				<input type="radio"
+					id="recmmed-7"
+					name="recmmed">Somewhat crowded</input>
+			</label>
+				<label for="rcommed-8">
+				<input type="radio"
+					id="rcommed-8"
+					name="rcommed">Not crowded</input>
+			</label>		
+</div>
+<div class="form-control">
+			<label>7. Do you think faculty and support staff at the college were helpful?
+				
+			<label for="ecommed-9">
+				<input type="radio"
+					id="ecommed-9"
+					name="ecommed-9">Very helpful</input>
+			</label>
+			<label for="rcommed">
+				<input type="radio"
+					id="recommed"
+					name="recommed">Little helpful</input>
+			</label>
+				<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed-1">Somewhat helpful</input>
+			</label>
+					<label for="reco">
+				<input type="radio"
+					id="reco"
+					name="reco">Not helpful at all</input>
+			</label>		
+</div>
+
+<div class="form-control">
+			<label>8. How likely are you to continue attending this college next year?
+				
+			<label for="r13">
+				<input type="radio"
+					id="re13"
+					name="recommed">Extremely likely</input>
+			</label>
+				<label for="r14">
+				<input type="radio"
+					id="r14"
+					name="r14">Very likely</input>
+			</label>
+			<label for="rec15">
+				<input type="radio"
+					id="rec15"
+					name="rec15">Somewhat likely</input>
+			</label>
+				<label for="recoi">
+				<input type="radio"
+					id="recoi"
+					name="recoi">Not likely at all</input>
+			</label>		
+</div>
+
+<div class="form-control">
+			<label>9. Given a chance, are you willing to pursue another course at the college?
+				
+			<label for="recoed-17">
+				<input type="radio"
+					id="recoed-17"
+					name="recoed-17">Yes</input>
+			</label>
+			<label for="r">
+				<input type="radio"
+					id="r"
+					name="r">No</input>
+			</label>
+		
+</div>
+
+<div class="form-control">
+			<label>10. How about your overall experience with this college?
+				
+			<label for="9">
+				<input type="radio"
+					id="9"
+					name="9">Very good</input>
+			</label>
+				<label for="rommed-20">
+				<input type="radio"
+					id="rommed-20"
+					name="rommed-20">Good</input>
+			</label>
+			<label for="ecoed">
+				<input type="radio"
+					id="ecoed"
+					name="ecoed">Bad</input>
+			</label>
+				<label for="rmmed-22">
+				<input type="radio"
+					id="rmmed-22"
+					name="rmmed-22">Very bad</input>
+			</label>		
+</div>
+		<div class="form-control">
+			<label for="comment">
+				Any suggestions?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your suggestions here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>
